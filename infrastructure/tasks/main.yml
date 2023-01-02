@@ -1,7 +1,7 @@
----
 # tasks 
 - name: Install packages
   ansible.builtin.pip:
+    name:
     - docker-compose
     - docker
 - name: "Clone git repository"
